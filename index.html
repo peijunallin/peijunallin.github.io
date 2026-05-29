@@ -5,303 +5,184 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./index.css">
   <link rel="icon" type="image/png" href="images/dartmouth_logo.jpeg">
-  <script crossorigin="anonymous" integrity="sha512-odXFR6jGqGLJay2LHI5hit0IEfyxJ2UexST/
-  qvnljBPrbXMwU44CoVddZjD9EsrtS6bMOoz8lC2yU0nhyh9yyg==" src="https://lib.baomitu.com/echarts/5.0.0/echarts.common.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <title>Peijun Qing</title>
 </head>
 <body>
-  <div class="loading">
-    <div class="wriggle">
-      <div class="rectangle"></div>
-      <div class="rectangle"></div>
-      <div class="rectangle"></div>
-      <div class="rectangle"></div>
-      <div class="rectangle"></div>
-    </div>
-    <div class="tip">&nbsp;&nbsp;Welcome to Peijun's Website!</div>
-  </div>
-  <div class="content">
-    <nav class="nav1-show">
-      <!--<a href="index.html"><h2 class="title">Peijun's Website</h2></a>-->
-      <ul class="nav-ul">
-        <li class="nav-item"><a href="#">Biography</a></li>
-        <li class="nav-item"><a href="#Publications">Publications</a></li>
-        <li class="nav-item"><a href="#News">News</a></li>
-        <!--<li class="nav-item"><a href="#Teaching">Teaching</a></li>-->
-        <!-- <li class="nav-item"><a href="#Employments">Employments</a></li> -->
-        <!-- <li class="nav-item"><a href="#Reading">Reading</a></li> -->
-        <!-- <li class="nav-item"><a href="./Peijun_CV.pdf">CV</a></li> -->
-        <li class="nav-item"><a href="#Teaching">Teaching</a></li>
-        <li class="nav-item"><a href="#Service">Service</a></li>
-      </ul>
-    </nav>
-    <nav class="nav2-show">
-      <a href="index.html"><h2 class="title">PEIJUN'S WEBSITE</h2></a>
-    </nav>
-    <ul class="nav-ul">
-      <li class="nav-item"><a href="#">About Me</a></li>
-      <li class="nav-item"><a href="#Publications">Publications</a></li>
-      <li class="nav-item"><a href="#Projects">News</a></li>
-      <!-- <li class="nav-item"><a href="#Employments">Employments</a></li> -->
-      <!-- <li class="nav-item"><a href="./Xingjian_CV.pdf">CV</a></li> -->
-      <li class="nav-item"><a href="#Contact">Contact</a></li>
-    </ul>
-    <section class="body">
-      <div class="left">
-        <div class="head-img"></div>
-        <h1 class="name">Peijun Qing</h1>
-        <!-- <h3 class="desc2" style="color: black;">卿珮珺</h4> -->
-<!--         <h3 class="desc2">Capricorns</h3> <br> -->
+  <div class="page">
 
-        <ul class="icon">
-          <li class="icon-item"><a href="mailto:peijun.qing.gr@dartmouth.edu"><img src="./svg_icons/email-svgrepo-com.svg" alt=""></a></li>
-          <li class="icon-item"><img src="./svg_icons/icons8-linkedin.svg" alt="" onclick="window.location.href='http:\/\/www.linkedin.com/in/peijun-qing-3421982a1/'"></li>
-          <!--<li class="icon-item"><img src="./svg_icons/researchgate-logo-svgrepo-com.svg" alt="" onclick="window.location.href='http:\/\/researchgate.net/profile/Xingjian_Diao/'"></li>-->
-          <li class="icon-item"><img src="./svg_icons/icons8-google-scholar.svg" alt="" onclick="window.location.href='https:\/\/scholar.google.com/citations?user=8iYd-1UAAAAJ&hl=en'"></li>
-          <!-- <li class="icon-item"><img src="./svg_icons/curriculum-vitae-resume-svgrepo-com.svg" alt="" onclick="window.location.href='./Xingjian_CV.pdf'" ></li> -->
-
-        </ul>
+    <header class="site-nav">
+      <div class="nav-inner">
+        <a href="#" class="nav-brand">Peijun Qing</a>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#news">News</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#service">Service</a>
+        </nav>
       </div>
-      <div class="right">
-        <h1 class="biography-title">About Me</h1>
-        <br><br>
-        <section class="biography">
-        <p>Hi! I'm Peijun, a second-year Ph.D. student in <a style="color:#4169E1; text-decoration: none;" href="https://web.cs.dartmouth.edu/">Computer Science</a> at Dartmouth College, working with Prof. <a style="color:#4169E1; text-decoration: none;" href="https://web.cs.dartmouth.edu/people/soroush-vosoughi/">Soroush Vosoughi</a> and co-advised by Prof. <a style="color:#4169E1; text-decoration: none;" href="https://www.hassanpourlab.com/team">Saeed Hassanpour</a>. Prior to Dartmouth, I received my bachelor's degree from Xidian University, where I explored knowledge-augmented LLMs.</p>
-        <br><p> <b>Research</b>: I am generally interested in <b>language model behavior</b>, with the current focus on <b>LLM alignment</b>. Before that, I worked on improving <b>robustness and efficiency</b> of LLMs and optimizing <b>complex reasoning</b>. I am extremely interested in developing simple yet scalable methods to address intricate real-world scenarios.</p>
+    </header>
 
-      </section>
-        <br><br>
+    <main>
 
-      </div>
-    </section>
-    <section id="Publications" class="showcase">
-      <div class="showcase-left">
-        <div class="showcase-left-title">Publications</div>
-<!--         <div class="showcase-left-desc">Selected publications</div> -->
-        <div class="footnote">
-            <p><sup>*</sup> indicates equal contribution</p>
+      <!-- ===== HERO / ABOUT ===== -->
+      <section id="about" class="hero">
+        <div class="hero-portrait">
+          <div class="portrait"></div>
+          <ul class="social">
+            <li><a href="mailto:peijun.qing.gr@dartmouth.edu" aria-label="Email"><img src="./svg_icons/email-svgrepo-com.svg" alt="email"></a></li>
+            <li><a href="https://scholar.google.com/citations?user=8iYd-1UAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><img src="./svg_icons/icons8-google-scholar.svg" alt="scholar"></a></li>
+            <li><a href="https://www.linkedin.com/in/peijun-qing-3421982a1/" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="./svg_icons/icons8-linkedin.svg" alt="linkedin"></a></li>
+          </ul>
         </div>
-      </div>
-      <div class="showcase-right">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <div class="hero-text">
+          <h1 class="hero-name">Peijun Qing</h1>
+          <p class="hero-affil">Ph.D. Student, Computer Science · Dartmouth College</p>
+          <div class="hero-bio">
+            <p>I am a second-year Ph.D. student in <a href="https://web.cs.dartmouth.edu/">Computer Science</a> at Dartmouth, advised by Prof. <a href="https://web.cs.dartmouth.edu/people/soroush-vosoughi/">Soroush Vosoughi</a> and co-advised by Prof. <a href="https://www.hassanpourlab.com/team">Saeed Hassanpour</a>. Previously, I received my bachelor's degree from Xidian University, where I worked on knowledge-augmented large language models.</p>
+            <p>My research centers on the <em>behavior of language models</em>, with a current focus on <strong>LLM alignment</strong>. I have also worked on improving the <strong>robustness</strong> and <strong>efficiency</strong> of LLMs and on optimizing <strong>complex reasoning</strong>. I am drawn to simple, scalable methods that hold up against the messiness of real-world problems.</p>
+          </div>
+        </div>
+      </section>
 
+      <!-- ===== PUBLICATIONS ===== -->
+      <section id="publications" class="block">
+        <header class="block-head">
+          <h2>Publications</h2>
+          <p class="block-sub">Selected work · <sup>*</sup>equal contribution</p>
+        </header>
 
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/publications/alphalora.png"  style="width:100%;height:auto;">
-              </td>
-              <td width="75%" valign="middle">
-                <a href="https://arxiv.org/abs/2410.10054" target="_blank" style="color:#4169E1; text-decoration: none;">
-                  <papertitle>AlphaLoRA: Assigning LoRA Experts Based on Layer Training Quality</papertitle>
-                </a>
-                <br>
-                <strong>Peijun Qing</strong>, Chongyang Gao, Yefan Zhou, Xingjian Diao, Yaoqing Yang, Soroush Vosoughi
-                <br>
-                <em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2024.
-                <br>
-                <p></p>
-              </td>
-            </tr>
+        <ol class="pub-list">
 
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/publications/promptspace.png" style="width:100%;height:auto;">
-              </td>
-              <td width="75%" valign="middle">
-                <a href="https://arxiv.org/abs/2306.03799" target="_blank" style="color:#4169E1; text-decoration: none;">
-                  <papertitle>Prompt Space Optimizing Few-shot Reasoning Success with Large Language Models</papertitle>
-                </a>
-                <br>
-                Fobo Shi<sup>*</sup>, <strong>Peijun Qing</strong><sup>*</sup>, Dong Yang<sup>*</sup>, Nan Wang, Youbo Lei, Haonan Lu, Xiaodong Lin, Duantengchuan Li
-                <br>
-                <em>North American Chapter of the Association for Computational Linguistics (NAACL)</em>, 2023.
-                <br>
-                <p></p>
-              </td>
-            </tr>
-
-            
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/publications/plot1.png" style="width:100%;height:auto;">
-              </td>
-              <td width="75%" valign="middle">
-                <a href="https://arxiv.org/abs/2210.15578" target="_blank" style="color:#4169E1; text-decoration: none;">
-                  <papertitle>GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs</papertitle>
-                </a>
-                <br>
-                Dong Yang<sup>*</sup>, <strong>Peijun Qing</strong><sup>*</sup>, Yang Li, Haonan Lu, Xiaodong Lin
-                <br>
-                <em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2022, <span style="color:gold;"><b>Oral Presentation</b></span>.
-                <br>
-                <p></p>
-              </td>
-            </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-             <!--<tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/publications/vibration_solutions.png" width="200" height="120">
-              </td>
-              <td width="75%" valign="middle">
-                <a href="https://www.worldscientific.com/doi/abs/10.1142/S0219455425502669" target="_blank" style="color:#4169E1; text-decoration: none;">
-                  <papertitle>Analytical free vibration solutions of rectangular thin plates subjected to three edges rotationally-restrained and one edge free</papertitle>
-                </a>
-                <br>
-                Jinghui Zhang, Pin Gao, <strong>Xingjian Diao</strong>, Salamat Ullah, Jiapeng Li, Yuwei Zhang, Wenyue Qi
-                <br>
-                <em>International Journal of Structural Stability and Dynamics (IJSSD)</em>, 2024
-                <br>
-                <p></p>
-              </td>
-            </tr>-->
-
-
-
-             <!--<tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/publications/SAIC.png" width="200" height="120">
-              </td>
-              <td width="75%" valign="middle">
-                <a href="https://link.springer.com/chapter/10.1007/978-3-031-63592-2_22" target="_blank" style="color:#4169E1; text-decoration: none;">
-                  <papertitle>SAIC: Integration of Speech Anonymization and Identity Classification</papertitle>
-                </a>
-                <br>
-                Ming Cheng<sup>*</sup>, <strong>Xingjian Diao</strong><sup>*</sup>, Shitong Cheng, Wenjun Liu
-                <br>
-                <em>AI for Health Equity and Fairness: Leveraging AI to Address Social Determinants of Health</em>, Cham: Springer Nature Switzerland, 2024
-                <br>
-                <p></p>
-              </td>
-            </tr>-->
-
-
-           <!--<tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/publications/glumarker.png" width="200" height="120">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://arxiv.org/abs/2404.12605" target="_blank" style="color:#4169E1; text-decoration: none;">
-                <papertitle>GluMarker: A Novel Predictive Modeling of Glycemic Control Through Digital Biomarkers</papertitle>
+          <li class="pub">
+            <div class="pub-meta">
+              <span class="pub-year">2026</span>
+              <span class="pub-venue">arXiv</span>
+            </div>
+            <div class="pub-body">
+              <a class="pub-title" href="#" target="_blank" rel="noopener">
+                Cluster-R1: Large Reasoning Models Are Instruction-following Clustering Agents
               </a>
-              <br>
-              Ziyi Zhou<sup>*</sup>, Ming Cheng<sup>*</sup>, <strong>Xingjian Diao</strong><sup>*</sup>, Yanjun Cui, Xiangling Li
-              <br>
-              <em>Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)</em>, 2024
-              <br>
-              <span style="color: gold; font-size: 24px;">&#x1F396; </span> <span style="color: 	#DAA520; font-size: 17px;"> IEEE EMBC NextGen Scholar Award</span>
-              <br>
-              <p></p>
-            </td>
-          </tr>-->
+              <p class="pub-authors"><strong>Peijun Qing</strong>, Puneet Mathur, Nedim Lipka, Varun Manjunatha, Ryan Rossi, Franck Dernoncourt, et al.</p>
+              <p class="pub-note">arXiv preprint arXiv:2603.23518</p>
+            </div>
+          </li>
 
-           <!--<tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/publications/Efflex.png" width="200" height="120">
-            </td>
-            <td width="75%" valign="middle">
-              <a href="https://openaccess.thecvf.com/content/CVPR2024W/SG2RL/papers/Cheng_Efflex_Efficient_and_Flexible_Pipeline_for_Spatio-Temporal_Trajectory_Graph_Modeling_CVPRW_2024_paper.pdf" target="_blank" style="color:#4169E1; text-decoration: none;">
-                <papertitle>Efflex: Efficient and Flexible Pipeline for Spatio-Temporal Trajectory Graph
-                  Modeling and Representation Learning</papertitle>
+          <li class="pub">
+            <div class="pub-meta">
+              <span class="pub-year">2026</span>
+              <span class="pub-venue">EACL Findings</span>
+            </div>
+            <div class="pub-body">
+              <a class="pub-title" href="#" target="_blank" rel="noopener">
+                Tailoring Memory Granularity for Multi-Hop Reasoning over Long Contexts
               </a>
-              <br>
-              Ming Cheng<sup>*</sup>, Ziyi Zhou<sup>*</sup>, Bowen Zhang<sup>*</sup>, Ziyu Wang, Jiaqi Gan, Ziang Ren, Weiqi Feng, Yi Lyu, Hefan Zhang, <strong>Xingjian Diao</strong>
-              <br>
-              <em>Conference on Computer Vision and Pattern Recognition (CVPR) Workshop: </em><a target="_blank" style="color:#4169E1; text-decoration: none;"><em>SG2RL2024</em></a>, 2024
-              <br>
-              <p></p>
-            </td>
-          </tr>-->
+              <p class="pub-authors"><strong>Peijun Qing</strong>, Xingjian Diao, Chunhui Ma, Saeed Hassanpour, Soroush Vosoughi</p>
+              <p class="pub-note">Findings of the Association for Computational Linguistics: EACL, 2026</p>
+            </div>
+          </li>
 
+          <li class="pub">
+            <div class="pub-meta">
+              <span class="pub-year">2024</span>
+              <span class="pub-venue">EMNLP</span>
+            </div>
+            <div class="pub-body">
+              <a class="pub-title" href="https://arxiv.org/abs/2410.10054" target="_blank" rel="noopener">
+                AlphaLoRA: Assigning LoRA Experts Based on Layer Training Quality
+              </a>
+              <p class="pub-authors"><strong>Peijun Qing</strong>, Chongyang Gao, Yefan Zhou, Xingjian Diao, Yaoqing Yang, Soroush Vosoughi</p>
+              <p class="pub-note">Conference on Empirical Methods in Natural Language Processing, 2024</p>
+            </div>
+          </li>
 
+          <li class="pub">
+            <div class="pub-meta">
+              <span class="pub-year">2023</span>
+              <span class="pub-venue">NAACL</span>
+            </div>
+            <div class="pub-body">
+              <a class="pub-title" href="https://arxiv.org/abs/2306.03799" target="_blank" rel="noopener">
+                Prompt Space: Optimizing Few-shot Reasoning Success with Large Language Models
+              </a>
+              <p class="pub-authors">Fobo Shi<sup>*</sup>, <strong>Peijun Qing</strong><sup>*</sup>, Dong Yang<sup>*</sup>, Nan Wang, Youbo Lei, Haonan Lu, Xiaodong Lin, Duantengchuan Li</p>
+              <p class="pub-note">North American Chapter of the Association for Computational Linguistics, 2023</p>
+            </div>
+          </li>
 
+          <li class="pub">
+            <div class="pub-meta">
+              <span class="pub-year">2022</span>
+              <span class="pub-venue">EMNLP <span class="badge">Oral</span></span>
+            </div>
+            <div class="pub-body">
+              <a class="pub-title" href="https://arxiv.org/abs/2210.15578" target="_blank" rel="noopener">
+                GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs
+              </a>
+              <p class="pub-authors">Dong Yang<sup>*</sup>, <strong>Peijun Qing</strong><sup>*</sup>, Yang Li, Haonan Lu, Xiaodong Lin</p>
+              <p class="pub-note">Conference on Empirical Methods in Natural Language Processing, 2022 · Oral Presentation</p>
+            </div>
+          </li>
 
+        </ol>
+      </section>
 
-        </tbody></table>
+      <!-- ===== NEWS ===== -->
+      <section id="news" class="block alt">
+        <header class="block-head">
+          <h2>News</h2>
+        </header>
+        <ul class="news-list">
+          <li>
+            <span class="news-date">2026</span>
+            <span class="news-text">New preprint: <em>Cluster-R1</em> — Large Reasoning Models as Instruction-following Clustering Agents.</span>
+          </li>
+          <li>
+            <span class="news-date">2026</span>
+            <span class="news-text"><em>Tailoring Memory Granularity for Multi-Hop Reasoning over Long Contexts</em> accepted to <strong>EACL Findings</strong> 2026.</span>
+          </li>
+          <li>
+            <span class="news-date">Oct&nbsp;2024</span>
+            <span class="news-text">One paper accepted to <strong>EMNLP 2024</strong>. Many thanks to my co-authors!</span>
+          </li>
+          <li>
+            <span class="news-date">Sep&nbsp;2023</span>
+            <span class="news-text">Started my Ph.D. journey at Dartmouth College.</span>
+          </li>
+        </ul>
+      </section>
 
-      </div>
+      <!-- ===== TEACHING ===== -->
+      <section id="teaching" class="block">
+        <header class="block-head">
+          <h2>Teaching</h2>
+        </header>
+        <ul class="teaching-list">
+          <li>
+            <span class="teach-role">Graduate Teaching Assistant</span>
+            <span class="teach-course">Artificial Intelligence — <a href="https://dartmouth.smartcatalogiq.com/en/2022/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-76/" target="_blank" rel="noopener">CS&nbsp;76 / 276</a></span>
+            <span class="teach-term">Dartmouth College · Fall 2024</span>
+          </li>
+        </ul>
+      </section>
 
+      <!-- ===== SERVICE ===== -->
+      <section id="service" class="block alt">
+        <header class="block-head">
+          <h2>Service</h2>
+        </header>
+        <p class="service-text"><strong>Reviewer:</strong> NeurIPS 2024 · ICLR 2025 · AISTATS 2025 · ICASSP 2025.</p>
+      </section>
 
+    </main>
 
+    <footer class="site-foot">
+      <p>© Peijun Qing, 2023–2026 · Last updated May 2026</p>
+    </footer>
 
-
-</section>
-<section id="News" class="showcase">
-  <div class="showcase-left">
-    <div class="showcase-left-title">News</div>
-    <!--<div class="showcase-left-desc">Recent Updates</div>-->
-  </div>
-
-  <div class="showcase-right">
-    <ul style="list-style-type: none; padding: 0; margin: 0; width: 100%; border: 0; border-spacing: 0;">
-      <li style="padding: 15px; border-bottom: 1px solid #ccc; font-size: 1.5em;">
-        <strong>October 2024:</strong> One paper was accepted by EMNLP 2024. Many thanks to the co-authors!
-      </li>
-      <li style="padding: 15px; border-bottom: 1px solid #ccc; font-size: 1.5em;">
-        <strong>September 2023:</strong> Hi!
-      </li>
-
-    </ul>
-  </div>
-</section>
-
-
-
-    <section id="Teaching" class="showcase">
-      <div class="showcase-left">
-        <div class="showcase-left-title">Teaching</div>
-      </div>
-      <div class="showcase-right">
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td style="padding:30px;width:25%;vertical-align:middle">
-              <img src="images/dartmouth_logo.png" width="120">
-            </td>
-            <td width="75%" valign="center" style="font-size: 1.5em;">
-              <a>Graduate TA, Artificial Intelligence, <a href="https://dartmouth.smartcatalogiq.com/en/2022/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-76/" target="_blank" style="color:#4169E1; text-decoration: none;">CS76/276</a>, Fall 2024</a>
-              <br>
-
-
-            </td>
-          </tr>
-        </tbody></table>
-      </div>
-    </section>
-
-
-
-
-
-<section id="Service" class="showcase">
-  <div class="showcase-left">
-    <div class="showcase-left-title">Service</div>
-  </div>
-  <div class="showcase-right">
-    <ul class="service-ul">
-      <li class="service-item" style="font-size: 1.5em;">  <strong>Reviewer:</strong> NeurIPS 2024, ICLR2025, AISTATS 2025, ICASSP 2025.</li>
-
-
-    </ul>
-  </div>
-</section>
-
-
-    <footer>Peijun Qing © 2023, referring to the <a href="https://github.com/jonbarron/jonbarron_website" target="_blank" style="color:#4169E1; text-decoration: none;">website template</a></footer>
   </div>
   <script src="./index.js"></script>
 </body>
